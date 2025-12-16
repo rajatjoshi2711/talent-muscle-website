@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Talent Muscle</title>
+    <meta name="description" content="Get in touch with Talent Muscle to hire top tech talent or explore partnerships.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-form {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: var(--shadow-md);
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--text-color);
+        }
+
+        .form-input,
+        .form-select,
+        .form-textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid #CBD5E1;
+            border-radius: 0.5rem;
+            font-family: inherit;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        .form-input:focus,
+        .form-select:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+        }
+
+        .form-textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Talent Muscle" style="height: 40px;">
+            </a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">☰</button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="section" style="background-color: #F8FAFC; padding-bottom: 2rem;">
+        <div class="container text-center">
+            <h1>Let’s Talk</h1>
+            <p style="font-size: 1.25rem; color: var(--text-light); max-width: 800px; margin: 0 auto;">
+                Looking to hire talent or explore a partnership? We’d love to hear from you.
+            </p>
+        </div>
+    </header>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container grid-2">
+            <!-- Contact Info -->
+            <div>
+                <div style="margin-bottom: 3rem;">
+                    <h3>Contact Information</h3>
+                    <p><strong>Talent Muscle Pvt Ltd</strong><br>A brand of <strong>EmergeFlow Technologies</strong></p>
+
+                    <div style="margin-top: 2rem;">
+                        <p style="margin-bottom: 1rem;">
+                            <strong>Email:</strong><br>
+                            <a href="mailto:contact@talentmuscle.com" class="text-primary">contact@talentmuscle.com</a>
+                        </p>
+                        <p style="margin-bottom: 1rem;">
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+91XXXXXXXXXX" class="text-primary">+91-XXXXXXXXXX</a>
+                        </p>
+                        <p>
+                            <strong>Website:</strong><br>
+                            <a href="http://www.talentmuscle.com" class="text-primary">www.talentmuscle.com</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div style="background-color: #F1F5F9; padding: 2rem; border-radius: 1rem;">
+                    <h3>What Happens Next</h3>
+                    <ul style="list-style: none; margin-top: 1rem;">
+                        <li style="margin-bottom: 1rem; display: flex; align-items: start;">
+                            <span
+                                style="color: var(--secondary-color); margin-right: 0.5rem; font-weight: bold;">1.</span>
+                            We review your requirement within 24 hours
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: start;">
+                            <span
+                                style="color: var(--secondary-color); margin-right: 0.5rem; font-weight: bold;">2.</span>
+                            A specialist contacts you to understand details
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: start;">
+                            <span
+                                style="color: var(--secondary-color); margin-right: 0.5rem; font-weight: bold;">3.</span>
+                            Relevant talent profiles are shared promptly
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div>
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); alert('Thank you for your enquiry! We will get back to you shortly.');">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" class="form-input" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company" class="form-label">Company Name</label>
+                        <input type="text" id="company" class="form-input" required>
+                    </div>
+
+                    <div class="grid-2" style="gap: 1rem;">
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" class="form-input">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="type" class="form-label">Type of Requirement</label>
+                        <select id="type" class="form-select">
+                            <option value="staffing">Staff Augmentation</option>
+                            <option value="partnership">Partnership</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" class="form-textarea" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Enquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo" style="color: white;">Talent<span>Muscle</span></div>
+                    <p>A brand of <strong>EmergeFlow Technologies</strong>.</p>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:contact@talentmuscle.com">contact@talentmuscle.com</a></li>
+                        <li><a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Talent Muscle Pvt Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
