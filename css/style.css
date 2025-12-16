@@ -352,6 +352,7 @@ p {
         --spacing-xl: 4rem;
     }
 
+    /* Navigation */
     .nav-links {
         display: none;
         position: absolute;
@@ -363,25 +364,49 @@ p {
         padding: var(--spacing-md);
         box-shadow: var(--shadow-md);
         text-align: center;
+        border-top: 1px solid #E2E8F0;
     }
 
     .nav-links.active {
         display: flex;
     }
 
-    .mobile-menu-btn {
-        display: block;
+    .nav-links li {
+        width: 100%;
+        padding: 0.5rem 0;
     }
 
+    .mobile-menu-btn {
+        display: block;
+        padding: 0.5rem;
+    }
+
+    /* Layout */
     .grid-2,
     .grid-3,
     .grid-4 {
+        display: grid;
         grid-template-columns: 1fr;
+    }
+
+    /* Fix for Hero section which uses both grid-2 and flex-center */
+    .hero .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-image {
+        margin-top: 2rem;
     }
 
     .footer-grid {
         grid-template-columns: 1fr;
         gap: var(--spacing-md);
+        text-align: center;
+    }
+
+    .footer-brand p {
+        margin: var(--spacing-sm) auto;
     }
 
     .flex {
@@ -391,6 +416,24 @@ p {
     .flex-between {
         flex-direction: row;
         /* Keep nav items row */
+    }
+
+    /* Adjustments for specific elements */
+    .hero-btns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-btns .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --h1-size: 2rem;
+        --h2-size: 1.75rem;
     }
 }
 
