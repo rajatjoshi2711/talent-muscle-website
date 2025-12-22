@@ -1,15 +1,24 @@
-document.addEventListener('DOMContentLoaded', () => {
-    // Mobile Menu Toggle
+const initNavbar = () => {
     const mobileBtn = document.querySelector('.mobile-menu-btn');
-    const navLinks = document.querySelector('.nav-links');
+    const navLinksList = document.querySelector('.nav-links');
 
     if (mobileBtn) {
         mobileBtn.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
+            navLinksList.classList.toggle('active');
         });
     }
 
-    // Smooth Scroll for Anchor Links
+    // Set active link based on current page
+    const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+    document.querySelectorAll('.nav-link').forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
+    });
+
+    // Smooth Scroll for Anchor Links (internal only)
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
@@ -19,12 +28,29 @@ document.addEventListener('DOMContentLoaded', () => {
                     behavior: 'smooth'
                 });
                 // Close mobile menu if open
-                if (navLinks.classList.contains('active')) {
-                    navLinks.classList.remove('active');
+                if (navLinksList.classList.contains('active')) {
+                    navLinksList.classList.remove('active');
                 }
             }
         });
     });
+};
+
+const loadNavbar = () => {
+    const placeholder = document.getElementById('navbar-placeholder');
+    if (!placeholder) return;
+
+    // Use our global navbarContent variable from js/navbar.js
+    if (typeof navbarContent !== 'undefined') {
+        placeholder.innerHTML = navbarContent;
+        initNavbar();
+    } else {
+        console.error('Navbar content not found. Make sure navbar.js is loaded before main.js');
+    }
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+    loadNavbar();
 });
 
 // Cookie Consent Popup
