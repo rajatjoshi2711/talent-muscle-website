@@ -243,7 +243,7 @@ p {
     position: sticky;
     top: 0;
     z-index: 1000;
-    padding: var(--spacing-sm) 0;
+    padding: var(--spacing-xs) 0;
 }
 
 .nav-container {
@@ -256,6 +256,11 @@ p {
     display: block;
     width: 150px;
     /* Adjust as needed */
+}
+
+.logo img {
+    height: 48px;
+    width: auto;
 }
 
 .nav-links {
