@@ -49,8 +49,21 @@ const loadNavbar = () => {
     }
 };
 
+const loadFooter = () => {
+    const placeholder = document.getElementById('footer-placeholder');
+    if (!placeholder) return;
+
+    // Use our global footerContent variable from js/footer.js
+    if (typeof footerContent !== 'undefined') {
+        placeholder.innerHTML = footerContent;
+    } else {
+        console.error('Footer content not found. Make sure footer.js is loaded before main.js');
+    }
+};
+
 document.addEventListener('DOMContentLoaded', () => {
     loadNavbar();
+    loadFooter();
 });
 
 // Cookie Consent Popup
