@@ -24,7 +24,7 @@ const footerContent = `
             <h4 class="footer-heading">Contact</h4>
             <ul class="footer-links">
                 <li><a href="mailto:contact@talentmuscle.com">contact@talentmuscle.com</a></li>
-                <li><a href="tel:+91XXXXXXXXXX">+91-XXXXXXXXXX</a></li>
+                <li><a href="tel:+917414931162">+91-74149 31162</a></li>
             </ul>
         </div>
     </div>
