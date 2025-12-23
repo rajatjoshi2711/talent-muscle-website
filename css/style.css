@@ -294,14 +294,14 @@ p {
 .footer {
     background-color: var(--primary-color);
     color: var(--white);
-    padding: var(--spacing-xl) 0 var(--spacing-lg);
+    padding: var(--spacing-lg) 0 var(--spacing-md);
 }
 
 .footer-grid {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: var(--spacing-lg);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
 }
 
 .footer-brand p {
