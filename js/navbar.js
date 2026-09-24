@@ -7,6 +7,7 @@ const navbarContent = `
     <ul class="nav-links">
         <li><a href="index.html" class="nav-link">Home</a></li>
         <li><a href="about.html" class="nav-link">About Us</a></li>
+        <li><a href="candidates.html" class="nav-link">For Candidates</a></li>
         <li><a href="contact.html" class="nav-link">Contact</a></li>
     </ul>
 </div>
