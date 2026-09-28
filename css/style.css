@@ -328,6 +328,23 @@ p {
     color: var(--white);
 }
 
+.footer-social {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.25rem;
+}
+
+.footer-social a {
+    color: #94A3B8;
+    transition: color var(--transition-fast);
+    display: flex;
+    align-items: center;
+}
+
+.footer-social a:hover {
+    color: var(--white);
+}
+
 .footer-bottom {
     border-top: 1px solid #334155;
     padding-top: var(--spacing-md);
