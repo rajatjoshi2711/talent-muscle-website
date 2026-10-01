@@ -61,17 +61,17 @@ const footerContent = `
             </a>
             <a href="https://claude.ai/new?q=Talent+Muscle+is+a+technology+staffing+company+with+a+DNA+of+tech+delivery.+Tell+me+more+about+this+company+on+how+it+helps+candidates+to+grow+in+their+career+as+well+as+clients+to+onboard+top+talent+without+hassle.+Refer+their+website+and+answer+this+question%3A+https%3A%2F%2Ftalentmuscle.com%2F" target="_blank" rel="noopener" aria-label="Ask Claude" title="Ask Claude">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4.709 15.955l4.72-2.647.08-.23-.08-.128H9.2l-.79-.048-2.698-.073-2.339-.097-1.778-.17-.571-.121L.8 12l.224-.444.571-.122 1.778-.169 2.34-.097 2.697-.073.79-.048h.229l.08-.128-.08-.229-4.72-2.647-.777-.508-.578-.632-.066-.52.52-.066.633.578.508.777 4.72 2.647.229.08.128-.08v-.229l.048-.79.073-2.698.097-2.34.17-1.777.12-.571L12 .8l.444.224.122.571.169 1.778.097 2.34.073 2.697.048.79v.229l.128.08.23-.08 2.646-4.72.508-.777.633-.578.52.066-.066.52-.578.633-.508.777-2.646 4.72-.08.23.08.128h.229l.79.048 2.698.073 2.34.097 1.778.17.57.12.224.444-.224.444-.57.122-1.778.169-2.34.097-2.698.073-.79.048h-.229l-.08.128.08.229 4.72 2.647.508.777.578.633.066.52-.52.066-.633-.578-.508-.777-4.72-2.647-.229-.08-.128.08v.229l-.048.79-.073 2.698-.097 2.34-.169 1.778-.122.57L12 23.2l-.444-.224-.12-.57-.17-1.778-.097-2.34-.073-2.698-.048-.79v-.229l-.128-.08-.229.08-4.72 2.647-.777.508-.633.578-.52-.066.066-.52.578-.633.777-.508z"/>
+                    <path d="M12 1L13.9 7.4 19.4 4.6 16.6 10.1 22.5 12 16.6 13.9 19.4 19.4 13.9 16.6 12 22.5 10.1 16.6 4.6 19.4 7.4 13.9 1.5 12 7.4 10.1 4.6 4.6 10.1 7.4Z"/>
                 </svg>
             </a>
             <a href="https://www.perplexity.ai/?q=Talent+Muscle+is+a+technology+staffing+company+with+a+DNA+of+tech+delivery.+Tell+me+more+about+this+company+on+how+it+helps+candidates+to+grow+in+their+career+as+well+as+clients+to+onboard+top+talent+without+hassle.+Refer+their+website+and+answer+this+question%3A+https%3A%2F%2Ftalentmuscle.com%2F" target="_blank" rel="noopener" aria-label="Ask Perplexity" title="Ask Perplexity">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M22.3537 7.5088H17.1337L12.6977 3.2408V7.5088H11.3017V3.2408L6.8667 7.5088H1.6457L1.6457 8.8538H4.8727L4.8727 15.1468H1.6457V16.4918H4.8727V21.2558H6.2187V16.4918H11.3017V21.2558H12.6977V16.4918H17.7807V21.2558H19.1267V16.4918H22.3537V15.1468H19.1267V8.8538H22.3537V7.5088ZM11.3017 8.8538V15.1468H6.2187V8.8538H11.3017ZM12.6977 8.8538H17.7807V15.1468H12.6977V8.8538Z"/>
+                    <path d="M12 2L14.5 9.5 22 12 14.5 14.5 12 22 9.5 14.5 2 12 9.5 9.5Z"/>
                 </svg>
             </a>
             <a href="https://grok.com/?q=Talent+Muscle+is+a+technology+staffing+company+with+a+DNA+of+tech+delivery.+Tell+me+more+about+this+company+on+how+it+helps+candidates+to+grow+in+their+career+as+well+as+clients+to+onboard+top+talent+without+hassle.+Refer+their+website+and+answer+this+question%3A+https%3A%2F%2Ftalentmuscle.com%2F" target="_blank" rel="noopener" aria-label="Ask Grok" title="Ask Grok">
                 <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                    <path d="M20 8C18.2 5.1 15.3 3 12 3 6.5 3 2 7.5 2 13s4.5 10 10 10 10-4.5 10-10V12H13v2.5h6.5C18.8 17.3 15.7 20 12 20c-3.9 0-7-3.1-7-7s3.1-7 7-7c2.1 0 4 .9 5.3 2.3L20 8Z"/>
                 </svg>
             </a>
         </div>
