@@ -70,8 +70,9 @@ const footerContent = `
                 </svg>
             </a>
             <a href="https://grok.com/?q=Talent+Muscle+is+a+technology+staffing+company+with+a+DNA+of+tech+delivery.+Tell+me+more+about+this+company+on+how+it+helps+candidates+to+grow+in+their+career+as+well+as+clients+to+onboard+top+talent+without+hassle.+Refer+their+website+and+answer+this+question%3A+https%3A%2F%2Ftalentmuscle.com%2F" target="_blank" rel="noopener" aria-label="Ask Grok" title="Ask Grok">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20 8C18.2 5.1 15.3 3 12 3 6.5 3 2 7.5 2 13s4.5 10 10 10 10-4.5 10-10V12H13v2.5h6.5C18.8 17.3 15.7 20 12 20c-3.9 0-7-3.1-7-7s3.1-7 7-7c2.1 0 4 .9 5.3 2.3L20 8Z"/>
+                <svg width="22" height="22" viewBox="0 0 34 33" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13.2371 21.0407L24.3186 12.8506C24.8619 12.4491 25.6384 12.6057 25.8973 13.2294C27.2597 16.5185 26.651 20.4712 23.9403 23.1851C21.2297 25.8989 17.4581 26.4941 14.0108 25.1386L10.2449 26.8843C15.6463 30.5806 22.2053 29.6665 26.304 25.5601C29.5551 22.3051 30.562 17.8683 29.6205 13.8673L29.629 13.8758C28.2637 7.99809 29.9647 5.64871 33.449 0.844576C33.5314 0.730667 33.6139 0.616757 33.6964 0.5L29.1113 5.09055V5.07631L13.2343 21.0436"/>
+                    <path d="M10.9503 23.0313C7.07343 19.3235 7.74185 13.5853 11.0498 10.2763C13.4959 7.82722 17.5036 6.82767 21.0021 8.2971L24.7595 6.55998C24.0826 6.07017 23.215 5.54334 22.2195 5.17313C17.7198 3.31926 12.3326 4.24192 8.67479 7.90126C5.15635 11.4239 4.0499 16.8403 5.94992 21.4622C7.36924 24.9165 5.04257 27.3598 2.69884 29.826C1.86829 30.7002 1.0349 31.5745 0.36364 32.5L10.9474 23.0341"/>
                 </svg>
             </a>
         </div>
